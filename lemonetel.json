@@ -1,0 +1,59 @@
+{
+	"$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
+	"version": "0.1.x",
+	"aboutMe": {
+		"geolocationCoordinates": {
+			"accuracy": 10000,
+			"latitude": 35.6895,
+			"longitude": 139.69232
+		},
+		"identifier": "9df701c2-cecd-487e-abf4-c90a52748ffb",
+		"image": "https://kusaremkn.com/mikan/computers/lemon.webp",
+		"name": "LemoNeTEL",
+		"preferredPrefix": [
+			"0513",
+			"513"
+		],
+		"sipUri": [
+			"sip:lemon.tailf4f38.ts.net:5060;transport=udp",
+			"sip:lemon.tailf4f38.ts.net:5060;transport=tdp"
+		]
+	},
+	"extensions": [
+		{
+			"extension": "1234",
+			"identifier": "AQEGU73G",
+			"name": "Connection test",
+			"type": "information"
+		},
+		{
+			"extension": "",
+			"identifier": "MKN3NOTA",
+			"image": "https://kusaremkn.com/mikan/phones/black10.webp",
+			"model": "600-A2; YAMAHA RT58i",
+			"name": "black10",
+			"type": "dialphone"
+		},
+		{
+			"extension": "",
+			"identifier": "5F34QQUV",
+			"model": "iPhone SE 2",
+			"name": "iPhone SE 2",
+			"type": "smartphone"
+		}
+	],
+	"providers": [
+		{
+			"identifier": "9df701c2-cecd-487e-abf4-c90a52748ffb",
+			"mantela": "https://mantela.kusaremkn.com/lemonetel.json",
+			"name": "LemoNeTEL",
+			"prefix": "0"
+		},
+		{
+			"identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+			"mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
+			"name": "MikaNeTEL",
+			"prefix": "510"
+		}
+	]
+}
