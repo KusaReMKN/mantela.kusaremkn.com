@@ -1,0 +1,40 @@
+{
+	"$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
+	"version": "0.1.x",
+	"aboutMe": {
+		"identifier": "811f3549-41fd-476b-be17-4e8d45314e9e",
+		"name": "MikaNeTELab",
+		"preferredPrefix": [
+			"0180476",
+			"180476"
+		]
+	},
+	"extensions": [
+		{
+			"extension": "000063",
+			"identifier": "D7ZFP3UW",
+			"name": "Reads back the extension",
+			"type": "application"
+		},
+		{
+			"extension": "000064",
+			"identifier": "S34X4S2A",
+			"name": "0000MILLI",
+			"type": "application"
+		},
+		{
+			"extension": "10003246",
+			"identifier": "MYN3CZAD",
+			"name": "Echo test",
+			"type": "application"
+		}
+	],
+	"providers": [
+		{
+			"identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+			"mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
+			"name": "MikaNeTEL",
+			"prefix": "0510"
+		}
+	]
+}
