@@ -1,0 +1,44 @@
+{
+	"$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
+	"version": "0.1.x",
+	"aboutMe": {
+		"identifier": "cea45d03-c9d9-4df0-89ad-6117ceed051d",
+		"name": "KinkaNeTEL",
+		"image": "https://kusaremkn.com/mikan/computers/kinkan.webp",
+		"preferredPrefix": [
+			"05551",
+			"5551"
+		],
+		"sipUri": [
+			"sip:kinkan.tailf4f38.ts.net:5060;transport=udp",
+			"sip:kinkan.tailf4f38.ts.net:5060;transport=tdp"
+		],
+		"unavailable": true
+	},
+	"extensions": [
+		{
+			"extension": "234",
+			"identifier": "LAYR6ZVH",
+			"image": "https://unstable.kusaremkn.com/dummy.png",
+			"name": "Connection test",
+			"type": "information"
+		},
+		{
+			"extension": "601",
+			"identifier": "3JOYQZNH",
+			"image": "https://kusaremkn.com/mikan/phones/black14.webp",
+			"model": "600-A1W; ICOM VE-TA10",
+			"name": "black14",
+			"type": "dialphone"
+		}
+	],
+	"providers": [
+		{
+			"identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+			"name": "MikaNeTEL",
+			"mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json",
+			"prefix": "0510",
+			"unavailable": true
+		}
+	]
+}
