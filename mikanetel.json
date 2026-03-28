@@ -1,10 +1,13 @@
 {
 	"$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
-	"version": "0.1.0",
+	"version": "0.1.x",
 	"aboutMe": {
 		"identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
 		"name": "MikaNeTEL",
-		"preferredPrefix": [ "0510", "510" ],
+		"preferredPrefix": [
+			"0510",
+			"510"
+		],
 		"sipUri": [
 			"sip:mikopie.tailf4f38.ts.net:5060;transport=udp",
 			"sip:mikopie.tailf4f38.ts.net:5060;transport=tcp"
@@ -20,20 +23,87 @@
 	},
 	"extensions": [
 		{
-			"name": "from talk.108jiminy.jp",
-			"extension": "0000001",
-			"type": "main",
-			"identifier": "U72KGW6U",
-			"transferTo": [
-				"L5DXZJHM",
-				"PCOQMGSI",
-				"WQIM2VUB"
-			]
+			"name": "ivory3",
+			"extension": "4795",
+			"type": "pushphone",
+			"model": "900-P; Allied Telesis CentreCOM HS703T V1; Allied Telesis CentreCOM HS703T V1; ICOM VE-TA10",
+			"image": "https://kusaremkn.com/mikan/phones/ivory3.webp",
+			"identifier": "WQIM2VUB"
 		},
 		{
-			"name": "1000 Hz",
-			"extension": "1000",
-			"type": "music"
+			"name": "blue",
+			"extension": "4795",
+			"type": "pushphone",
+			"model": "Nothern Blue NB-2000; ICOM VE-TA10",
+			"image": "https://kusaremkn.com/mikan/phones/blue.webp",
+			"identifier": "16477688"
+		},
+		{
+			"name": "green",
+			"extension": "6627",
+			"type": "pushphone",
+			"model": "600-P; YAMAHA RT58i",
+			"image": "https://kusaremkn.com/mikan/phones/green.webp",
+			"identifier": "PCOQMGSI"
+		},
+		{
+			"name": "iyokan",
+			"extension": "7679",
+			"type": "phone",
+			"model": "Dell XPS 8930; Linphone; Ubuntu 24.04 LTS; Linux",
+			"image": "https://kusaremkn.com/mikan/computers/iyokan.webp",
+			"identifier": "172A70B3"
+		},
+		{
+			"name": "PV-BW5605",
+			"extension": "8478",
+			"type": "modem",
+			"model": "AIWA PV-BW5605; YAMAHA MVR500",
+			"identifier": "GNWQYIPN",
+			"unavailable": true
+		},
+		{
+			"name": "gray",
+			"extension": "8478",
+			"type": "dialphone",
+			"model": "IW-601-A2; AIWA PV-BW5605; YAMAHA NVR500",
+			"image": "https://kusaremkn.com/mikan/phones/gray.webp",
+			"unavailable": true
+		},
+		{
+			"name": "iyokan",
+			"extension": "9403",
+			"type": "modem",
+			"model": "Dell XPS 8930; RATOC Systems RS-USB56N; YAMAHA RT58i",
+			"image": "https://kusaremkn.com/mikan/computers/iyokan.webp"
+		},
+		{
+			"name": "shion",
+			"extension": "9457",
+			"type": "modem",
+			"model": "Panasonic WOODY CF-100A; YAMAHA NVR500",
+			"image": "https://kusaremkn.com/mikan/computers/shion.webp",
+			"unavailable": true
+		},
+		{
+			"name": "Mi conference",
+			"extension": "9876",
+			"type": "conference"
+		},
+		{
+			"name": "I'm a teapot",
+			"extension": "418",
+			"type": "information"
+		},
+		{
+			"name": "Not found",
+			"extension": "404",
+			"type": "information"
+		},
+		{
+			"name": "Forbidden",
+			"extension": "403",
+			"type": "information"
 		},
 		{
 			"name": "Connection test",
@@ -42,244 +112,47 @@
 			"image": "https://unstable.kusaremkn.com/dummy.png"
 		},
 		{
-			"name": "main",
+			"name": "Time signal",
+			"extension": "117",
+			"type": "information"
+		},
+		{
+			"name": "Main",
 			"extension": "1621",
 			"type": "main",
-			"identifier": "4BPIXTOD",
 			"transferTo": [
+				"172A70B3",
+				"16477688",
 				"PCOQMGSI",
-				"N72NB4CM",
-				"L5DXZJHM",
-				"OMAUDHPV",
 				"WQIM2VUB"
 			]
 		},
 		{
-			"name": "Mikan-chan is always\nwatching you...",
-			"extension": "9876",
-			"type": "conference",
-			"identifier": "4ESDYLHW"
-		},
-		{
-			"name": "Mikan",
-			"extension": "3241",
-			"type": "smartphone",
-			"model": "iPhone Xs; PortSIP UC 12.4.1",
-			"identifier": "L5DXZJHM",
-			"image": "https://kusaremkn.com/mikan/computers/mikan.webp"
-		},
-		{
-			"name": "green",
-			"extension": "6627",
-			"type": "pushphone",
-			"model": "600-P; YAMAHA RT58i",
-			"identifier": "PCOQMGSI",
-			"image": "https://kusaremkn.com/mikan/phones/green.webp"
-		},
-		{
-			"name": "iyokan",
-			"extension": "9403",
-			"type": "modem",
-			"model": "Dell XPS 8930; RS-USB56N; YAMAHA RT58i"
-		},
-		{
-			"name": "yuzu",
-			"extension": "5795",
-			"type": "modem",
-			"model": "NEC PC-8801mkII; AIWA PV-2123; YAMAHA NVR500",
-			"image": "https://kusaremkn.com/mikan/computers/yuzu.webp"
-		},
-		{
-			"name": "sango",
-			"extension": "5795",
-			"type": "pushphone",
-			"model": "601-P; AIWA PV-2123; YAMAHA NVR500",
-			"image": "https://kusaremkn.com/mikan/phones/sango.webp"
-		},
-		{
-			"name": "ivory3",
-			"extension": "4795",
-			"type": "pushphone",
-			"model": "900-P; ICOM VE-TA10",
-			"identifier": "WQIM2VUB",
-			"image": "https://kusaremkn.com/mikan/phones/ivory3.webp"
-		},
-		{
-			"name": "black5",
-			"extension": "3764",
-			"type": "dialphone",
-			"model": "4 号 A 自動式電話機; AudioCodecs MP-118",
-			"image": "https://kusaremkn.com/mikan/phones/black5.webp"
-			,"unavailable": true
-		},
-		{
-			"name": "PV-BW5605",
-			"extension": "8478",
-			"type": "modem",
-			"model": "AIWA PV-BW5605; YAMAHA NVR500",
-			"identifier": "GNWQYIPN"
-		},
-		{
-			"name": "blue",
-			"extension": "",
-			"type": "pushphone",
-			"model": "Nothern Blue NB-2000",
-			"image": "https://kusaremkn.com/mikan/phones/blue.webp"
-			,"unavailable": true
-		},
-		{
-			"name": "TO-BSF56K",
-			"extension": "8382",
-			"type": "modem",
-			"model": "Panasonic TO-BSF56K; YAMAHA NVR500",
-			"identifier": "O46F4I2G"
-		},
-		{
-			"name": "gray",
-			"extension": "8478",
-			"type": "dialphone",
-			"model": "IW-601-A2; AIWA PV-BW5605; YAMAHA NVR500",
-			"image": "https://kusaremkn.com/mikan/phones/gray.webp"
-		},
-		{
-			"name": "buttinski",
-			"extension": "2526",
-			"type": "dialphone",
-			"model": "41 号 C 試験送受器; YAMAHA RT58i",
-			"image": "https://kusaremkn.com/mikan/phones/buttinski.webp"
-			,"unavailable": true
-		},
-		{
-			"name": "shion",
-			"extension": "9457",
-			"type": "modem",
-			"model": "Panasonic WOODY CF-100A; YAMAHA NVR500",
-			"image": "https://kusaremkn.com/mikan/computers/shion.webp"
-		},
-		{
-			"name": "white",
-			"extension": "5805",
-			"type": "dialphone",
-			"model": "601-P; AudioCodecs MP-118",
-			"identifier": "H7F4AFHI",
-			"image": "https://kusaremkn.com/mikan/phones/white.webp"
-			,"unavailable": true
-		},
-		{
-			"name": "tkytel 113",
-			"extension": "113",
-			"type": "information"
-		},
-		{
-			"name": "tkytel 104",
-			"extension": "104",
-			"type": "switchboard",
-			"transferTo": [
-				"H7F4AFHI"
-			]
-		},
-		{
-			"name": "black21",
-			"extension": "8718",
-			"type": "dialphone",
-			"model": "富士型一號卓上電話機; AudioCodecs MP-118"
-			,"unavailable": true
-		},
-		{
-			"name": "tachibana",
-			"extension": "5925",
-			"type": "cellphone",
-			"model": "KYOCERA GRATINA KYF39"
-		},
-		{
-			"name": "black4",
-			"extension": "3287",
-			"type": "dialphone",
-			"model": "4 号 A 自動式電話機; AudioCodecs MP-118",
-			"image": "https://kusaremkn.com/mikan/phones/black4.webp"
-			,"unavailable": true
-		},
-		{
-			"name": "black3",
-			"extension": "",
-			"type": "phone",
-			"model": "650-C",
-			"image": "https://kusaremkn.com/mikan/phones/black3.webp"
-			,"unavailable": true
-		},
-		{
-			"name": "black7",
-			"extension": "",
-			"type": "dialphone",
-			"model": "600-A2",
-		 	"image": "https://kusaremkn.com/mikan/phones/black7.webp"
-			,"unavailable": true
-		},
-		{
-			"name": "green2",
-			"extension": "",
-			"type": "dialphone"
-			,"unavailable": true
-		},
-		{
-			"name": "black16",
-			"extension": "",
-			"type": "dialphone"
-			,"unavailable": true
-		},
-		{
-			"name": "black17",
-			"extension": "",
-			"type": "dialphone"
-			,"unavailable": true
-		},
-		{
-			"name": "black18",
-			"extension": "",
-			"type": "dialphone"
-			,"unavailable": true
-		},
-		{
-			"name": "black19",
-			"extension": "",
-			"type": "dialphone"
-			,"unavailable": true
-		},
-		{
-			"name": "black20",
-			"extension": "",
-			"type": "dialphone"
-			,"unavailable": true
-		},
-		{
-			"name": "black22",
-			"extension": "8541",
-			"type": "dialphone",
-			"model": "F25 号 A 自動式電話機; YAMAHA RT58i"
-			,"unavailable": true
-		},
-		{
-			"name": "modem queue",
+			"name": "Modem queue",
 			"extension": "9396",
 			"type": "main",
 			"transferTo": [
-				"GNWQYIPN",
-				"O46F4I2G"
+				"GNWQYIPN"
 			]
+		},
+
+		{
+			"name": "0000MILLI",
+			"extension": "1000",
+			"type": "music"
+		},
+		{
+			"name": "Echo test",
+			"extension": "10003246",
+			"type": "application"
 		}
 	],
 	"providers": [
 		{
 			"identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
-			"name": "MIKANETEL",
+			"name": "MikaNeTEL",
 			"prefix": "0",
 			"mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
-		},
-		{
-			"identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
-			"mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json",
-			"name": "jiminy Public",
-			"prefix": "108"
 		},
 		{
 			"identifier": "153048c5-db33-4e00-ad49-694762555d5c",
@@ -288,22 +161,9 @@
 			"mantela": "https://108jiminy.jp/phone/jiminylocalmantela.json"
 		},
 		{
-			"identifier": "497F92E7-6B9F-4D33-91B9-B34E94402913",
-			"name": "sasakulab",
-			"prefix": "530",
-			"mantela": "https://sasakulab.com/.well-known/mantela.json"
-		},
-		{
 			"identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
 			"name": "yude",
 			"prefix": "390",
-			"mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
-		},
-		{
-			"identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
-			"name": "yude-via-ipv6",
-			"prefix": "392",
-			"unavailable": true,
 			"mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
 		},
 		{
@@ -313,16 +173,11 @@
 			"mantela": "https://www.pepepper.net/.well-known/mantela.json"
 		},
 		{
-			"identifier": "XXX:qqey",
-			"name": "qqey",
-			"prefix": "330",
-			"mantela": ""
-		},
-		{
 			"identifier": "46b3929e-a4af-48ad-827a-a13d672c01d5",
 			"name": "Numekick",
 			"prefix": "884",
-			"mantela": "https://numekick.github.io/Numekick.Mantela/numekick.json"
+			"mantela": "https://numekick.github.io/Numekick.Mantela/numekick.json",
+			"unavailable": true
 		},
 		{
 			"identifier": "e5e9120a-1b58-4eb7-b2c8-efe5b452c910",
@@ -334,19 +189,22 @@
 			"identifier": "db30e15e-b101-4069-a406-9af3fdfe5c2e",
 			"name": "yoshina",
 			"prefix": "447",
-			"mantela": "https://yosh1na-hub.github.io/Mantela/Mantela.yoshina.json"
+			"mantela": "https://yosh1na-hub.github.io/Mantela/Mantela.yoshina.json",
+			"unavailable": true
 		},
 		{
 			"identifier": "91c5f34f-c178-4cfe-a488-be6ed00fac3b",
 			"name": "hieri",
 			"prefix": "890",
-			"mantela": "https://hieri1021.github.io/.well-known/mantela.json"
+			"mantela": "https://hieri1021.github.io/.well-known/mantela.json",
+			"unavailable": true
 		},
 		{
 			"identifier": "b2b242ff-826f-78a4-4315-c1d0573311de",
 			"name": "kaiware",
 			"prefix": "308",
-			"mantela": "https://kaiware9011.github.io/mantela/KaiwareMantela.json"
+			"mantela": "https://kaiware9011.github.io/mantela/KaiwareMantela.json",
+			"unavailable": true
 		},
 		{
 			"identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8",
@@ -355,16 +213,11 @@
 			"mantela": "https://8yazaki.github.io/mantela/mantela.json"
 		},
 		{
-			"identifier": "811f3549-41fd-476b-be17-4e8d45314e9e",
-			"name": "MikaNeTELab",
-			"prefix": "180476",
-			"mantela": "https://unstable.kusaremkn.com/.well-known/lab-mantela.json"
-		},
-		{
 			"identifier": "46fb2dc7-ee07-435d-9a27-0a7b4d43d3d7",
 			"name": "MCeTeLO",
 			"prefix": "917",
-			"mantela": "https://meishicafei.github.io/.well-known/mantela.json"
+			"mantela": "https://meishicafei.github.io/.well-known/mantela.json",
+			"unavailable": true
 		},
 		{
 			"identifier": "d8405294-3ea4-40c4-8809-23dd6d917d38",
@@ -373,16 +226,16 @@
 			"mantela": "https://unstable.kusaremkn.com/.well-known/priv-mantela.json"
 		},
 		{
-			"identifier": "24e24ec4-746a-4736-920d-47a725201154",
-			"name": "macaron",
-			"prefix": "798",
-			"mantela": "https://telephony.jm8krg.net/.well-known/mantela.json"
-		},
-		{
 			"identifier": "47abe85d-fe09-691d-f928-4f75b27a157f",
 			"name": "hedgehog-tokyo",
 			"prefix": "242",
 			"mantela": "https://toybox.rainyvillage.jp/mantela/mantela.json"
+		},
+		{
+			"identifier": "24e24ec4-746a-4736-920d-47a725201154",
+			"name": "macaron",
+			"prefix": "798",
+			"mantela": "https://telephony.jm8krg.net/.well-known/mantela.json"
 		},
 		{
 			"identifier": "81c99427-4a30-4364-8b17-fed97f347439",
@@ -415,24 +268,6 @@
 			"mantela": "https://www.scrwnl.eu.org/.well-known/mantela.json"
 		},
 		{
-			"identifier": "8400cd7b-9f20-4d1a-8e2e-fa278b245316",
-			"name": "scura",
-			"prefix": "862",
-			"mantela": "https://scuravr.github.io/.well-known/mantela.json"
-		},
-		{
-			"identifier": "XXX:kobako749",
-			"name": "kobako749",
-			"prefix": "749",
-			"mantela": ""
-		},
-		{
-			"identifier": "XXX:yank.nvim",
-			"name": "yank.nvim",
-			"prefix": "334",
-			"mantela": ""
-		},
-		{
 			"identifier": "376299fd-2ab2-4848-aa2c-18aea6f5abef",
 			"name": "Kur0den-tel",
 			"prefix": "961",
@@ -442,32 +277,8 @@
 			"name": "junks",
 			"identifier": "008902ee-6102-48b9-8e70-49d27058ad7e",
 			"prefix": "486",
-			"mantela": "https://junks.dev/.well-known/mantela.json"
-		},
-		{
-			"name": "sirin",
-			"identifier": "906286ae-3639-453f-b500-44a910445968",
-			"prefix": "444",
-			"mantela": "https://raw.githubusercontent.com/sirin-interact/.well-known/refs/heads/main/mantela.json"
-		},
-		{
-			"name": "NoriTEL",
-			"identifier": "8ad8afa6-11a8-4e61-b28d-343393f3d4d4",
-			"prefix": "989",
-			"mantela": "https://ajinori256.com/.well-known/mantela.json"
-		},
-		{
-			"name": "minerjirou",
-			"identifier": "XXX-minerjirou",
-			"prefix": "794",
-			"mantela": "",
+			"mantela": "https://junks.dev/.well-known/mantela.json",
 			"unavailable": true
-		},
-		{
-			"name": "tobi1",
-			"identifier": "bbe4aba8-3782-4bef-9539-6b96a895beb9",
-			"prefix": "425",
-			"mantela": "https://raw.githubusercontent.com/keitotobi1/.well-known/refs/heads/main/mantela.json"
 		},
 		{
 			"name": "rei_k Public",
@@ -497,43 +308,71 @@
 			"name": "MikaNeTEL-Suginami",
 			"identifier": "9df701c2-cecd-487e-abf4-c90a52748ffb",
 			"prefix": "513",
-			"mantela": "https://unstable.kusaremkn.com/.well-known/suginami-mantela.json"
+			"mantela": "https://mantela.kusaremkn.com/lemonetel.json"
 		},
 		{
 			"name": "Goryokaku",
 			"identifier": "41aca3d1-6882-4e4d-9651-5e52464902e7",
 			"prefix": "767",
-			"mantela": "https://halka.jp/.well-known/mantela.json"
+			"mantela": "https://halka.jp/.well-known/mantela.json",
+			"unavailable": true
+		},
+		{
+			"identifier": "497F92E7-6B9F-4D33-91B9-B34E94402913",
+			"name": "sasakulab",
+			"prefix": "530",
+			"mantela": "https://sasakulab.com/.well-known/mantela.json",
+			"unavailable": true
 		},
 		{
 			"name": "eggplants",
 			"identifier": "f040d6dc-7019-21a9-3af2-c8427aa9e9b9",
 			"prefix": "810",
-			"mantela": "https://egpl.dev/.well-known/mantela.json"
+			"mantela": "https://egpl.dev/.well-known/mantela.json",
+			"unavailable": true
 		},
 		{
-			"name": "KinkaNeTEL",
-			"identifier": "cea45d03-c9d9-4df0-89ad-6117ceed051d",
-			"prefix": "5551",
-			"mantela": "https://unstable.kusaremkn.com/.well-known/kinkanetel-mantela.json"
-		},
-		{
-			"name": "watanabe-tel",
-			"identifier": "XXX-watanabe-tel",
-			"prefix": "910",
-			"mantela": ""
-		},
-		{
-			"name": "dobob-tel",
-			"identifier": "XXX-dobob-tel",
-			"prefix": "737",
+			"name": "to-hutel",
+			"identifier": "XXX:to-hutel",
+			"prefix": "111",
 			"mantela": ""
 		},
 		{
 			"name": "montel",
 			"identifier": "c101f71a-f10d-4f39-af18-2a8f87bab5d0",
 			"prefix": "599",
-			"mantela": "https://nomulabo.com/mantela/mantela.json"
+			"mantela": "https://github.nomulabo.com/mantela/mantela.json",
+			"unavailable": true
+		},
+		{
+			"name": "spla-tel",
+			"identifier": "bf979778-1d1f-4a33-abac-8cbc2f3dae91",
+			"prefix": "944",
+			"mantela": "https://hkshuttle.github.io/tkytel/mantela.json"
+		},
+		{
+			"name": "kaji-tteru",
+			"identifier": "",
+			"prefix": "520",
+			"mantela": "https://kaji.jp/.well-known/mantela.json"
+		},
+		{
+			"name": "みゅーと東京局",
+			"identifier": "8fa08edd-26e4-4762-99b1-109607e0fc22",
+			"prefix": "237",
+			"mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela.json"
+		},
+		{
+			"name": "みゅーと札幌局",
+			"identifier": "b45b51e4-307a-430e-8503-fe4f5b9672e8",
+			"prefix": "238",
+			"mantela": "https://nemnet-lab-pbx.github.io/mantela/mantela_sapporo.json"
+		},
+		{
+			"name": "くらげ局",
+			"identifier": "XXX:くらげ局",
+			"prefix": "495",
+			"mantela": ""
 		}
 	]
 }
