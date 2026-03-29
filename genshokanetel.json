@@ -1,0 +1,69 @@
+{
+	"$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
+	"version": "0.1.0",
+	"aboutMe": {
+		"identifier": "d8405294-3ea4-40c4-8809-23dd6d917d38",
+		"name": "GenshokaNeTEL",
+		"preferredPrefix": [ "229" ],
+		"geolocationCoordinates": {
+			"latitude": 38.5548288,
+			"longitude": 140.9449984,
+			"altitude": null,
+			"accuracy": 4177.840144512007,
+			"altitudeAccuracy": null
+		}
+	},
+	"extensions": [
+		{
+			"name": "test",
+			"extension": "1234",
+			"type": "information",
+			"identifier": "7TSO46K7"
+		},
+		{
+			"name": "pink",
+			"extension": "",
+			"type": "pushphone",
+			"identifier": "JSIAVFDX",
+			"image": "https://kusaremkn.com/mikan/phones/pink.webp"
+		}
+	],
+	"providers": [
+		{
+			"identifier": "d8405294-3ea4-40c4-8809-23dd6d917d38",
+			"name": "private",
+			"prefix": "0",
+			"mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+		},
+		{
+			"identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+			"name": "MIKANETEL",
+			"prefix": "510",
+			"mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+		},
+		{
+			"name": "moyashitel",
+			"prefix": "113",
+			"identifier": "e5e9120a-1b58-4eb7-b2c8-efe5b452c910",
+			"mantela": "https://moyashim-25.com/.well-known/mantela.json"
+		},
+		{
+			"name": "YuriConoHa",
+			"prefix": "975",
+			"identifier": "9e40b39a-2964-4868-af71-ebe8e71615eb",
+			"mantela": "https://yuriko.co.nz/.well-known/mantela.json"
+		},
+		{
+			"name": "jiminy Public",
+			"prefix": "108",
+			"identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
+			"mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json"
+		},
+		{
+			"name": "sirin",
+			"prefix": "444",
+			"identifier": "906286ae-3639-453f-b500-44a910445968",
+			"mantela": "https://raw.githubusercontent.com/sirin-interact/.well-known/refs/heads/main/mantela.json"
+		}
+	]
+}
