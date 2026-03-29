@@ -1,17 +1,24 @@
 {
 	"$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
-	"version": "0.1.0",
+	"version": "0.1.x",
 	"aboutMe": {
 		"identifier": "d8405294-3ea4-40c4-8809-23dd6d917d38",
 		"name": "GenshokaNeTEL",
-		"preferredPrefix": [ "229" ],
+		"preferredPrefix": [
+			"229"
+		],
+		"sipUri": [
+			"sip:genshokan.tailf4f38.ts.net:5060;transport=udp",
+			"sip:genshokan.tailf4f38.ts.net:5060;transport=tcp"
+		],
 		"geolocationCoordinates": {
 			"latitude": 38.5548288,
 			"longitude": 140.9449984,
 			"altitude": null,
 			"accuracy": 4177.840144512007,
 			"altitudeAccuracy": null
-		}
+		},
+		"image": "https://kusaremkn.com/mikan/computers/genshokan.webp"
 	},
 	"extensions": [
 		{
@@ -31,13 +38,13 @@
 	"providers": [
 		{
 			"identifier": "d8405294-3ea4-40c4-8809-23dd6d917d38",
-			"name": "private",
+			"name": "GenshokaNeTEL",
 			"prefix": "0",
-			"mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+			"mantela": "https://mantela.kusaremkn.com/genshokanetel.json"
 		},
 		{
 			"identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
-			"name": "MIKANETEL",
+			"name": "MikaNeTEL",
 			"prefix": "510",
 			"mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
 		},
@@ -52,18 +59,6 @@
 			"prefix": "975",
 			"identifier": "9e40b39a-2964-4868-af71-ebe8e71615eb",
 			"mantela": "https://yuriko.co.nz/.well-known/mantela.json"
-		},
-		{
-			"name": "jiminy Public",
-			"prefix": "108",
-			"identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
-			"mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json"
-		},
-		{
-			"name": "sirin",
-			"prefix": "444",
-			"identifier": "906286ae-3639-453f-b500-44a910445968",
-			"mantela": "https://raw.githubusercontent.com/sirin-interact/.well-known/refs/heads/main/mantela.json"
 		}
 	]
 }
