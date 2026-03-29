@@ -59,6 +59,12 @@
 			"prefix": "975",
 			"identifier": "9e40b39a-2964-4868-af71-ebe8e71615eb",
 			"mantela": "https://yuriko.co.nz/.well-known/mantela.json"
+		},
+		{
+			"name": "LemoNeTEL",
+			"prefix": "229",
+			"identifier": "9df701c2-cecd-487e-abf4-c90a52748ffb",
+			"mantela": "https://mantela.kusaremkn.com/lemonetel.json"
 		}
 	]
 }
