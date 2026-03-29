@@ -9,8 +9,8 @@
 			"510"
 		],
 		"sipUri": [
-			"sip:mikopie.tailf4f38.ts.net:5060;transport=udp",
-			"sip:mikopie.tailf4f38.ts.net:5060;transport=tcp"
+			"sip:mikanetel.tailf4f38.ts.net:5060;transport=udp",
+			"sip:mikanetel.tailf4f38.ts.net:5060;transport=tcp"
 		],
 		"geolocationCoordinates": {
 			"latitude": 35.4516992,
