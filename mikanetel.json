@@ -373,6 +373,12 @@
 			"identifier": "XXX:くらげ局",
 			"prefix": "495",
 			"mantela": ""
+		},
+		{
+			"name": "ここん局",
+			"identifier": "XXX:ここん局",
+			"prefix": "550",
+			"mantela": ""
 		}
 	]
 }
