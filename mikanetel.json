@@ -379,6 +379,12 @@
 			"identifier": "XXX:ここん局",
 			"prefix": "550",
 			"mantela": ""
+		},
+		{
+			"name": "roi-tel",
+			"identifier": "31e54b78-fdf0-4733-aa6c-60b5a92bb3c0",
+			"prefix": "732",
+			"mantela": "https://roiarise.github.io/mantela.json"
 		}
 	]
 }
