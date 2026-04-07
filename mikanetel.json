@@ -385,6 +385,12 @@
 			"identifier": "31e54b78-fdf0-4733-aa6c-60b5a92bb3c0",
 			"prefix": "732",
 			"mantela": "https://roiarise.github.io/mantela.json"
+		},
+		{
+			"name": "ab2m-ありあな局",
+			"identifier": "402b0d3f-d499-4bf7-8ef0-bd25c1edd69a",
+			"prefix": "462",
+			"mantela": "https://allianaab2m.github.io/mantela/mantela.json"
 		}
 	]
 }
