@@ -391,6 +391,12 @@
 			"identifier": "402b0d3f-d499-4bf7-8ef0-bd25c1edd69a",
 			"prefix": "462",
 			"mantela": "https://allianaab2m.github.io/mantela/mantela.json"
+		},
+		{
+			"name": "tmk-tel",
+			"identifier": "8bb2ad20-6beb-48e1-8f12-df97722767f4",
+			"prefix": "223",
+			"mantela": "https://tkytel.rusk.moe/mantela.json"
 		}
 	]
 }
