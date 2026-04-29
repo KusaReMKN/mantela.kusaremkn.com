@@ -220,7 +220,7 @@
 		},
 		{
 			"identifier": "d8405294-3ea4-40c4-8809-23dd6d917d38",
-			"name": "MikaNeTEL-Osaki",
+			"name": "GenshokaNeTEL",
 			"prefix": "229",
 			"mantela": "https://unstable.kusaremkn.com/.well-known/priv-mantela.json"
 		},
@@ -304,7 +304,7 @@
 			"mantela": "https://zin3.cc/.well-known/mantela.json"
 		},
 		{
-			"name": "MikaNeTEL-Suginami",
+			"name": "LemoNeTEL",
 			"identifier": "9df701c2-cecd-487e-abf4-c90a52748ffb",
 			"prefix": "513",
 			"mantela": "https://mantela.kusaremkn.com/lemonetel.json"
