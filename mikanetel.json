@@ -396,6 +396,12 @@
 			"identifier": "8bb2ad20-6beb-48e1-8f12-df97722767f4",
 			"prefix": "223",
 			"mantela": "https://tkytel.rusk.moe/mantela.json"
+		},
+		{
+			"name": "やんちょん局",
+			"identifier": "dc727e60-251e-4b97-af2c-927df9042dcd",
+			"prefix": "918",
+			"mantela": "https://yanchon918s.github.io/mantela/mantela.json"
 		}
 	]
 }
