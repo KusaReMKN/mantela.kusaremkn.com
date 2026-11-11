@@ -380,6 +380,12 @@
 			"mantela": ""
 		},
 		{
+			"name": "もちもち局",
+			"identifier": "XXX:もちもち局",
+			"prefix": "587",
+			"mantela": ""
+		},
+		{
 			"name": "roi-tel",
 			"identifier": "31e54b78-fdf0-4733-aa6c-60b5a92bb3c0",
 			"prefix": "732",
