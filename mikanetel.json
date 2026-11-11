@@ -410,6 +410,12 @@
 			"mantela": "https://yanchon918s.github.io/mantela/mantela.json"
 		},
 		{
+			"name": "電気工技術部局",
+			"identifier": "XXX:電気工技術部局",
+			"prefix": "430",
+			"mantela": ""
+		},
+		{
 			"name": "KSPD-ICB局",
 			"identifier": "b6c6a038-2364-4fb5-a23f-3b3d2e70128c",
 			"prefix": "907",
