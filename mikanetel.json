@@ -402,6 +402,12 @@
 			"identifier": "dc727e60-251e-4b97-af2c-927df9042dcd",
 			"prefix": "918",
 			"mantela": "https://yanchon918s.github.io/mantela/mantela.json"
+		},
+		{
+			"name": "KSPD-ICB局",
+			"identifier": "b6c6a038-2364-4fb5-a23f-3b3d2e70128c",
+			"prefix": "907",
+			"mantela": "https://nao700.github.io/KSPB-ICB-TEL/mantela.json"
 		}
 	]
 }
